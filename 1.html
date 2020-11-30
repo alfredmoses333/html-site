@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page lesson1</title>
+</head>
+
+<body>
+    <!-- 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p> -->
+    <div style="background-color: black;color: white;text-align: center;">
+        <h2>login page</h2>
+        <br>
+        <h4>Welcome</h4>
+        <br>
+        <input id="username" type="text" placeholder="username">
+        <br>
+        <input id="password" type="password" placeholder="password">
+        <br>
+        <input type="button" value="login" onclick="login()">
+
+    </div>
+    <script>
+        function login() {
+            
+            var name=document.getElementById("username").value
+            var password=document.getElementById("password").value
+            if(password=="333"){
+                alert("welcome "+name)    
+            }else{
+                alert("type the correct password"+name)    
+                
+            }
+
+
+
+            
+        }
+    </script>
+</body>
+
+</html>
